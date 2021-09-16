@@ -1,8 +1,7 @@
 # SWR_Online_Server
 The SWR Online server
 
-## Usage
-### Requirements
+## Requirements
 - ASIO ( Get from https://think-async.com/Asio/ or any Linux Repository )
 - [Linux] GCC Compiler
 - [Windows] GCC or Visual Studio

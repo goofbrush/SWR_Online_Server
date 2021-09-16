@@ -7,18 +7,19 @@ The SWR Online server
 - [Linux] GCC Compiler
 - [Windows] Visual Studio
 
-### Compiling
+## Compiling
 ```Shell
 git clone --recurse-submodules https://github.com/goofbrush/SWR_Online_Server.git
 ```
-[Linux] Using GCC
+### [Linux] Using GCC
 ```
 cd SWR_Online_Server
 g++ SimpleServer.cpp -o server -pthread
 ./server
 ```
+(Make sure to execute as root)
 
-[Windows] Configuring Visual Studio
+### [Windows] Configuring Visual Studio
 - Move all Files into a new project
 - Right Click the Project in the Solution Explorer
 - Click Properties

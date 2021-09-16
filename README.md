@@ -17,7 +17,6 @@ cd SWR_Online_Server
 g++ SimpleServer.cpp -o server -pthread
 ./server
 ```
-(Make sure to execute as root)
 
 ### [Windows] Configuring Visual Studio
 - Move all Files into a new project

@@ -1,0 +1,3 @@
+[submodule "ASIO-Networker"]
+	path = ASIO-Networker
+	url = https://github.com/goofbrush/ASIO-Networker.git

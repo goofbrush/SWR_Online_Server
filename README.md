@@ -21,10 +21,11 @@ g++ SimpleServer.cpp -o server -pthread
 ./server
 ```
 ### [Windows] Compiling using GCC
-Replace the -I option with the path to ASIOs include directory, heres an example:
+- Dont use git bash to compile, for a reason that is beyond all comprehension, it fails. Tested it works with mingw and atom
+- Replace the -I option with the path to ASIOs include directory, heres an example:
 ```
 cd SWR_Online_Server
-g++ SimpleServer.cpp -o server -pthread -lws2_32 -lwsock32 -IC:\asio-1.18.1\include
+g++ SimpleServer.cpp -o server -lws2_32 -lwsock32 -IC:\asio-1.18.1\include -pthread
 ./server
 ```
 

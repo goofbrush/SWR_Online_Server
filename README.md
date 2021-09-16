@@ -2,10 +2,11 @@
 The SWR Online server
 
 ## Requirements
-- ASIO ( Get from https://think-async.com/Asio/ or any Linux Repository )
+- [ASIO](https://think-async.com/Asio/) (Networker)
 - [Linux] GCC Compiler
-- [Windows] GCC or Visual Studio
+- [Windows] GCC( [mingw](https://sourceforge.net/projects/mingw/) ) or MSVC( [Visual Studio](https://visualstudio.microsoft.com/downloads/) ) </br>
 
+Note, for mingw environments I reccomend using [Atom](https://atom.io/) and installing the [GCC Compiler package](https://atom.io/packages/gcc-make-run)
 ## Compiling
 
 ### Obtaining Files

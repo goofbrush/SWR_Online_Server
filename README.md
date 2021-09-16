@@ -4,6 +4,9 @@ The SWR Online server
 ## Releases
 Pre-compiled binaries can be found [here](https://github.com/goofbrush/SWR_Online_Server/releases).
 
+## Building
+If you would like to build or modify this project yourself follow these steps for setup
+
 ## Requirements
 - [ASIO](https://think-async.com/Asio/) (Networker)
 - [Linux] GCC Compiler

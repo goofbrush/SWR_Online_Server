@@ -2,7 +2,7 @@
 The SWR Online server
 
 ## Releases
-Pre-compiled binaries can be found here: https://github.com/goofbrush/SWR_Online_Server/releases
+Pre-compiled binaries can be found [here](https://github.com/goofbrush/SWR_Online_Server/releases).
 
 ## Requirements
 - [ASIO](https://think-async.com/Asio/) (Networker)

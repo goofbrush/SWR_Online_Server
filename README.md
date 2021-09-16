@@ -1,4 +1,4 @@
-# SWR_Online_Client
+# SWR_Online_Server
 The SWR Online server
 
 ## Usage

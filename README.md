@@ -8,16 +8,19 @@ The SWR Online server
 - [Windows] GCC or Visual Studio
 
 ## Compiling
+
+### Obtaining Files
+Make sure to use the recurse option, otherwise no submodules will be cloned
 ```Shell
 git clone --recurse-submodules https://github.com/goofbrush/SWR_Online_Server.git
 ```
-### [Linux] Using GCC
+### [Linux] Compiling using GCC
 ```
 cd SWR_Online_Server
 g++ SimpleServer.cpp -o server -pthread
 ./server
 ```
-### [Windows] Using GCC
+### [Windows] Compiling using GCC
 Replace the -I option with the path to ASIOs include directory, heres an example:
 ```
 cd SWR_Online_Server
@@ -25,7 +28,7 @@ g++ SimpleServer.cpp -o server -pthread -lws2_32 -lwsock32 -IC:\asio-1.18.1\incl
 ./server
 ```
 
-### [Windows] Using Visual Studio
+### [Windows] Compiling using Visual Studio
 - Move all Files into a new project
 - Right Click the Project in the Solution Explorer
 - Click Properties
